@@ -36,3 +36,12 @@ web3
 web3.eth
 web3.eth.getAccounts()
 
+-- part 3 --
+create name_test.js (inside folder test)
+trufle test
+
+-- part 4--
+modify /src/index.html
+modify /src/js/app.js
+truffle migrate --reset
+npm run dev
