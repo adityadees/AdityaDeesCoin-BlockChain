@@ -1,0 +1,21 @@
+npm install -g truffle
+download ganache
+truffle unbox pet-shop
+
+create contracts AdityaDeesCoin.sol
+create migrations 2_deploy_contract.js
+open ganache
+make sure RPC SERVER and network host/port is same with truffle-config.js
+truffle migrate
+
+
+
+truffle console
+AdityaDeesCoin.deployed().then(function(instance){app=instance})
+
+check address
+app.address
+
+check candidate
+app.candidate()
+
