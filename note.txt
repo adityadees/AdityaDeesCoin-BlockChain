@@ -19,3 +19,20 @@ app.address
 check candidate
 app.candidate()
 
+--- part 2 --
+truffle migrate --reset
+truffle console
+AdityaDeesCoin.deployed().then(function(instance){app=instance})
+app.candidates(1)
+
+count Candidates
+app.candidatesCount()
+
+app.candidates(1).then(function(c){candidate = c;})
+candidate[0]
+candidate[0].toNumber()
+
+web3
+web3.eth
+web3.eth.getAccounts()
+
