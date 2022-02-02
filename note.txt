@@ -36,3 +36,8 @@ web3
 web3.eth
 web3.eth.getAccounts()
 
+-- part 3 --
+create name_test.js (inside folder test)
+trufle test
+
+
